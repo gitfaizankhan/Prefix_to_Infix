@@ -5,6 +5,7 @@ public class PrefixToInfix {
         String str = "*-A/BC-/AKL";
         String result = convert(str);
         System.out.println(result);
+
     }
     static String convert(String exp){
         Stack<String> stack = new Stack<>();
